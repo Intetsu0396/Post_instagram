@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    place-content: center;
+    background-color: white;
+}
+.container{
+    width: 500px;
+    height: 750px;
+    display: flex;
+    flex-direction: column; 
+    background-color: grey;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 0px 10px;
+
+}
+.header img{
+    width: 35px;
+    height: 35px;
+}
+.header_text{
+    position: absolute;
+    padding: 0px 0px 0px 45px;
+}
+.header_dots{
+    font-size: 3cap;
+}
+img{
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7px 17px 7px;
+}
+p{
+    padding: 0px 8px 15px 8px;
+}
+
